@@ -39,3 +39,9 @@ stop:
 
 dev:
 	docker compose -f docker-compose.yml up -d
+
+build:
+	docker-compose -f docker-compose.production.yml up
+
+down:
+	docker-compose down
